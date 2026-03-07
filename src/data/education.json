@@ -1,0 +1,23 @@
+[
+  {
+    "id": "daiict",
+    "institution": "Dhirubhai Ambani Institute of Information and Communication Technology (DAIICT)",
+    "program": "M.Sc. Data Science",
+    "year": "2024 – 2026",
+    "location": "Gandhinagar, Gujarat"
+  },
+  {
+    "id": "jmc-delhi",
+    "institution": "Jesus and Mary College, University of Delhi",
+    "program": "B.Sc. (Hons) Mathematics",
+    "year": "2020 – 2023",
+    "location": "Delhi"
+  },
+  {
+    "id": "holy-child-ghaziabad",
+    "institution": "Holy Child School, Ghaziabad",
+    "program": "Schooling (High School & Senior Secondary)",
+    "year": "– 2020",
+    "location": "Ghaziabad, Uttar Pradesh"
+  }
+]

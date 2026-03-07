@@ -1,0 +1,42 @@
+[
+    {
+        "id": "daiict-scholarship",
+        "title": "DAIICT Merit Scholarship",
+        "description": "Awarded for securing 1st rank consistently in the Data Science program.",
+        "year": "2024-2025",
+        "category": "academic",
+        "tags": ["🏅 Academic Excellence", "Scholarship"]
+    },
+    {
+        "id": "math-conclave",
+        "title": "1st Place - Mathematical Conclave",
+        "description": "Shri Shanti Narayan Mathematical Conclave. Presented a data-driven research paper on modeling and mitigating Australian bushfires using mathematical and statistical techniques.",
+        "year": "2023",
+        "category": "leadership",
+        "tags": ["🧠 Research", "🏆 Competition"]
+    },
+    {
+        "id": "jss-scholarship",
+        "title": "Shri Jagdish Saran Saxena Merit Scholarship",
+        "description": "Honored for achieving 2nd rank in the Mathematics Department during Bachelor’s studies.",
+        "year": "2023",
+        "category": "academic",
+        "tags": ["🏅 Academic Excellence", "Scholarship"]
+    },
+    {
+        "id": "leadership-challenge",
+        "title": "Winner - 100-Minute Challenge",
+        "description": "Led a four-member team to deliver data-driven insights under strict time constraints.",
+        "year": "2024",
+        "category": "leadership",
+        "tags": ["👥 Leadership", "🏆 Competition"]
+    },
+    {
+        "id": "solar-pv-research",
+        "title": "Published Research: Physics-Guided Solar PV Loss Estimation",
+        "description": "Led a research deliverable for unified solar loss estimation across 72 Indian cities, fusing conventional models with a Physics-Guided Unsupervised Latent Alignment approach.",
+        "year": "2024",
+        "category": "academic",
+        "tags": ["🧠 Research", "🌍 Community"]
+    }
+]

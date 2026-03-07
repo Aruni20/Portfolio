@@ -1,0 +1,296 @@
+[
+  {
+    "id": "hate-speech-tracker",
+    "title": "Hate Speech & Disinformation Ecosystem Tracker",
+    "category": "Data Science",
+    "description": "Near real-time AWS cloud-native framework for detecting sentiment shifts and bot coordination.",
+    "problem": "Social media becomes a battleground for state-sponsored disinformation during conflicts. Delayed analysis fails to contain systemic harm and coordinated inauthentic behavior.",
+    "approach": "Designed an AWS event-driven architecture that captures behavioral, structural, and virality-aware risk in near real-time. Implemented NLP pipelines for sentiment classification and graph-based coordination detection to identify anomalous amplification patterns.",
+    "techStack": ["NLP", "AWS", "Sentiment Analysis", "Real-time ETL", "Graph Analysis"],
+    "impact": "Identified coordinated disinformation campaigns with 90%+ precision during Operation Sindoor.",
+    "links": {
+      "github": "https://github.com/Aruni20/Hate_Speech_Ecosystem_tracker",
+      "live": ""
+    }
+  },
+  {
+    "id": "lego-optimization",
+    "title": "Retail Assortment Optimizer (Gurobi × Databricks)",
+    "category": "Engineering",
+    "description": "Enterprise-grade Mixed-Integer Programming (MIP) solution using Gurobi & Databricks.",
+    "problem": "Retailers struggle with scaling product assortment decisions under limited raw material inventory, demand uncertainty, and complex multi-constraint optimization.",
+    "approach": "Scaled Gurobi v12.0 solvers on Databricks clusters to find global optima for high-cardinality assortment puzzles in seconds. Built PySpark data pipelines for feature preparation and integrated solver APIs for batch optimization.",
+    "techStack": ["Gurobi", "Databricks", "PySpark", "MIP", "Python"],
+    "impact": "Engineered scalable heuristics for global-scale supply chain decision-support.",
+    "links": {
+      "github": "https://github.com/Aruni20/Databricks_Project_Analysis",
+      "live": ""
+    }
+  },
+  {
+    "id": "solar-pv-loss",
+    "title": "Physics-Informed Solar PV Loss Estimation",
+    "category": "Engineering",
+    "description": "Research framework fusing conventional models with a physics-informed Monte Carlo engine.",
+    "problem": "Conventional PV models ignore temporal memory effects (soiling, humidity cycles), leading to systematic energy yield overestimation in Indian climatic regimes.",
+    "approach": "Proposed a Physics-Guided Unsupervised Latent Alignment approach, fusing four industry frameworks (L5/L6) into a single latent consensus. Used Monte Carlo simulation with pvlib for scenario-based validation across 72 Indian cities.",
+    "techStack": ["Physics-ML", "Python", "Monte Carlo", "pvlib", "Statistical Modeling"],
+    "impact": "Uncovered significant overestimation (p=1.66e-13) in semi-arid regions across 72 Indian cities.",
+    "links": {
+      "github": "https://github.com/Aruni20/Minor-Project-System_Loss_Estimation_Extended",
+      "live": ""
+    }
+  },
+  {
+    "id": "retail-liquidity",
+    "title": "Retail Liquidity as Alpha",
+    "category": "Quant Finance",
+    "description": "Constructed a retail liquidity factor from UPI transaction data to predict market regimes.",
+    "problem": "Traditional lagging macro indicators fail to capture high-frequency retail sentiment that often precedes institutional repositioning in Indian equity markets.",
+    "approach": "Transformed UPI digital payment flows into a daily market signal using PCA-based behavioral extraction and Hidden Markov Model for regime discovery. Built XGBoost classifiers for sector rotation signals.",
+    "techStack": ["XGBoost", "PCA", "Statistical Modeling", "UPI Data", "Regime Detection"],
+    "impact": "18.2% CAGR with Sharpe > 1.4 by forecasting sector rotations via digital liquidity signals.",
+    "links": {
+      "github": "https://github.com/Aruni20/Retail-liquidity-new_factor",
+      "live": ""
+    }
+  },
+  {
+    "id": "verse2vision",
+    "title": "Verse2Vision: Bidirectional Multimodal RAG",
+    "category": "Generative AI",
+    "description": "Bidirectional generative system grounding text and image generation in retrieved multimodal evidence.",
+    "problem": "Standard multimodal models hallucinate or lose cultural accuracy when generating content across text and image modalities without grounding in verified evidence.",
+    "approach": "Built a bidirectional RAG architecture that grounds generation in a FAISS-indexed vector store of culturally verified multimodal evidence. Integrated Stable Diffusion for image generation and LangChain for retrieval orchestration.",
+    "techStack": ["NLP", "Multimodal RAG", "Stable Diffusion", "LangChain", "Vector DB"],
+    "impact": "Improved faithfulness for bidirectional generation in high-stakes cultural contexts.",
+    "links": {
+      "github": "https://github.com/Aruni20/VisiontoVerse",
+      "live": ""
+    }
+  },
+  {
+    "id": "brandmate",
+    "title": "Brandmate: LangGraph Social Media Agent",
+    "category": "Generative AI",
+    "description": "Stateful social media AI agent leveraging LangGraph for complex task evolution and campaign management.",
+    "problem": "Manual content management lacks state persistence and the ability to evolve campaign tasks over long durations based on user feedback and performance metrics.",
+    "approach": "Developed stateful orchestration using LangGraph, enabling agents to track campaign state and evolve content strategy autonomously. Integrated LLM-based content generation with structured output for posting workflows.",
+    "techStack": ["NLP", "LangGraph", "Agentic AI", "LLMs", "Python"],
+    "impact": "Automated end-to-end content generation and campaign management cycles with state persistence.",
+    "links": {
+      "github": "https://github.com/Aruni20/Brandmate--Social_Media_manager",
+      "live": ""
+    }
+  },
+  {
+    "id": "financial-recommendation",
+    "title": "FAR-Trans: Hybrid Financial Asset Recommender",
+    "category": "Quant Finance",
+    "description": "3-pillar hybrid engine combining Collaborative Filtering, Content-Based Filtering, and Demographic Scoring.",
+    "problem": "Traditional recommendation systems fail to balance behavioral trends with fundamental risk profiles and professional fund management attributes.",
+    "approach": "Engineered a hybrid engine fusing Collaborative (Behavioral), Content-Based (Fundamental), and Demographic (Risk) scoring. Used Scikit-learn for matrix factorization and feature-based models.",
+    "techStack": ["Hybrid AI", "Collaborative Filtering", "Scikit-learn", "Recommendation Systems"],
+    "impact": "Personalized asset allocation with integrated risk-aware demographic scoring filters.",
+    "links": {
+      "github": "https://github.com/Aruni20/Financial-Assest-Recommendation-System",
+      "live": ""
+    }
+  },
+  {
+    "id": "iv-surface",
+    "title": "NIFTY 3D Implied Volatility Surface",
+    "category": "Quant Finance",
+    "description": "Real-time NIFTY 3D surface plotting for Implied Volatility with hybrid mathematical fallback.",
+    "problem": "Real-time IV surfaces are hard to maintain when external options APIs suffer downtime or block server-side IPs, leaving traders without pricing visibility.",
+    "approach": "Implemented Cubic Spline interpolation for smooth surface construction and a mathematical IV fallback model (Black-Scholes implied volatility) for 100% service uptime. Built Streamlit dashboard with Plotly for interactive visualization.",
+    "techStack": ["Quant Finance", "Plotly", "Streamlit", "Cubic Splines", "Options Pricing"],
+    "impact": "Visualized real-time market sentiment and option pricing dynamics for NIFTY derivatives.",
+    "links": {
+      "github": "https://github.com/Aruni20/IV-Surface-Plot",
+      "live": ""
+    }
+  },
+  {
+    "id": "market-manipulation",
+    "title": "Market Manipulation Surveillance (ABSA + GCN)",
+    "category": "Quant Finance",
+    "description": "Surveillance pipeline using Aspect-Based Sentiment Analysis (ABSA) to flag suspicious price movements.",
+    "problem": "Detecting coordinated market manipulation requires bridging the gap between social sentiment and anomalous price action, which isolated NLP or quant models fail to capture.",
+    "approach": "Engineered a modular pipeline combining ABSA and emotion-aware NLP for news/social signals with GCN-based graph modeling of expected price behavior. Flagged anomalies where sentiment-driven expectations deviated from observed price paths.",
+    "techStack": ["NLP", "Financial NLP", "ABSA", "GCN", "Anomaly Detection"],
+    "impact": "Modeled expected price behavior to detect social-coordination anomalies in equity markets.",
+    "links": {
+      "github": "https://github.com/Aruni20/Stock_Market_manipulation_detection",
+      "live": ""
+    }
+  },
+  {
+    "id": "smart-healthcare",
+    "title": "Smart Healthcare RAG Assistant",
+    "category": "Generative AI",
+    "description": "RAG chatbot for medical Q&A with multi-PDF ingestion and semantic search.",
+    "problem": "Medical data is scattered across lengthy, unstructured PDFs, making precise information retrieval slow and error-prone for practitioners.",
+    "approach": "Built a production-ready RAG pipeline using semantic search over chunked documents. Implemented containerized multi-document PDF ingestion with embedding models and FAISS indexing. Deployed with Docker and Streamlit for medical QA.",
+    "techStack": ["NLP", "RAG", "Docker", "Streamlit", "PDF Ingestion", "Semantic Search"],
+    "impact": "Real-time accessibility for medical queries via semantic search across heterogeneous healthcare docs.",
+    "links": {
+      "github": "https://github.com/Aruni20/Smart_Healthcare_Assistant",
+      "live": "https://bijayjr-smart-healthcare-bot.hf.space/"
+    }
+  },
+  {
+    "id": "happiness-intelligence",
+    "title": "Global Happiness Intelligence Dashboard",
+    "category": "Data Science",
+    "description": "Multi-layered Tableau framework (2015–2019) for factor decomposition and correlation modeling.",
+    "problem": "Global happiness is often treated as a scalar, hiding structural socio-economic disparities and factor-level contributions across regions.",
+    "approach": "Engineered factor decomposition modeling to unpack composite indicators. Integrated Google Trends as a behavioral proxy for emotional sentiment tracking. Built 12+ interactive Tableau dashboards for interpretable drivers (Economy, Health, Social Support).",
+    "techStack": ["Tableau", "Statistical Modeling", "Data Engineering", "Factor Analysis"],
+    "impact": "Decomposed composite indicators into interpretable drivers for policy and travel planning.",
+    "links": {
+      "github": "https://github.com/Aruni20/Travel_Planner--Happiness_Survey_Driven",
+      "live": ""
+    }
+  },
+  {
+    "id": "eigenportfolio",
+    "title": "Eigenportfolio Construction (PCA-Driven)",
+    "category": "Quant Finance",
+    "description": "Applied PCA to covariance matrices of DJIA stocks to extract orthogonal risk factors.",
+    "problem": "Constructing diversified portfolios requires understanding the latent risk structure that traditional sector labels overlook.",
+    "approach": "Implemented unsupervised PCA on 30 DJIA stocks to identify the dominant eigenvectors of market variance. Used them for portfolio weighting and risk decomposition. Validated via out-of-sample Sharpe ratios.",
+    "techStack": ["PCA", "Linear Algebra", "Portfolio Theory", "NumPy", "Statistical Modeling"],
+    "impact": "Identified intelligent portfolios with Sharpe ratios > 1.8 by aligning with market structure.",
+    "links": {
+      "github": "https://github.com/Aruni20/Eigenportfolio",
+      "live": ""
+    }
+  },
+  {
+    "id": "court-optimization",
+    "title": "NyayaSetu: MILP Court Scheduling Engine",
+    "category": "Engineering",
+    "description": "Automated judicial scheduling system with real-time ETL pipelines and Mixed-Integer Linear Programming.",
+    "problem": "Massive case backlogs in judicial systems are exacerbated by inefficient, manual scheduling processes that ignore resource constraints.",
+    "approach": "Built a MILP-driven optimization engine for real-time court scheduling. Integrated Kafka for event-driven case intake and Airflow for ETL orchestration. Containerized with Docker for deployment.",
+    "techStack": ["MILP", "Kafka", "Airflow", "Docker", "Python"],
+    "impact": "Automated scheduling to reduce judicial backlog via mathematical resource optimization.",
+    "links": {
+      "github": "https://github.com/Aruni20/Court-Schedule-Optimization",
+      "live": ""
+    }
+  },
+  {
+    "id": "krishi-saarthi",
+    "title": "Krishi Saarthi: Multilingual Farming Advisor",
+    "category": "Engineering",
+    "description": "AI farming advisor for yield prediction featuring a multilingual voice interface.",
+    "problem": "Rural farmers lack access to localized, data-driven agricultural advisory due to language barriers and complex data interfaces.",
+    "approach": "Developed a multilingual voice-controlled interface (GTTS) atop a Scikit-learn yield prediction engine. Supported 6+ Indian languages for crop and yield recommendations. Built with Streamlit for accessibility.",
+    "techStack": ["NLP", "Scikit-learn", "Streamlit", "GTTS", "Voice AI"],
+    "impact": "Localized advisory support in 6+ Indian languages for yield and crop recommendation.",
+    "links": {
+      "github": "https://github.com/Aruni20/Krishi_Saarthi--Farming-Advisor",
+      "live": "https://krishisaarthi.streamlit.app/"
+    }
+  },
+  {
+    "id": "zara-viz",
+    "title": "ZARA Growth Visualization Study",
+    "category": "Data Science",
+    "description": "Hypothesis-driven visualization study of 9 years of sales data uncovering growth drivers.",
+    "problem": "Raw retail data often fails to communicate the invisible forces driving revenue growth and luxury market positioning.",
+    "approach": "Engineered 12+ intuitive visual idioms and an Affordable Luxury Index (ALI) via Tableau. Applied hypothesis testing to validate growth drivers. Unboxed strategic insights through visual storytelling.",
+    "techStack": ["Tableau", "Hypothesis Testing", "Data Viz", "Business Intelligence"],
+    "impact": "Unboxed strategic insights into market positioning and sales growth.",
+    "links": {
+      "github": "https://github.com/Aruni20/Zara-s-growth-visual-story",
+      "live": ""
+    }
+  },
+  {
+    "id": "women-safety",
+    "title": "Women Safety Analytics Dashboard",
+    "category": "Data Science",
+    "description": "Interactive visualization of 20+ years of crime data in India using a multi-view dashboard.",
+    "problem": "Analyzing 48+ lakh crime records district-wise requires reducing cognitive load to uncover state-wise disparities and temporal patterns.",
+    "approach": "Designed a multi-view dashboard using task abstraction and visual idioms (Choropleth, Gantt, Box plots) to reveal temporal surges. Used Pandas for preprocessing and Tableau for interactive dashboards.",
+    "techStack": ["Tableau", "Pandas", "Data Viz", "Social Impact"],
+    "impact": "Equipped stakeholders with perceptual narratives for region-specific safety interventions.",
+    "links": {
+      "github": "https://github.com/Aruni20/Women-Safety-visualization",
+      "live": ""
+    }
+  },
+  {
+    "id": "spotify-clustering",
+    "title": "Spotify Emotion-Based Song Clustering",
+    "category": "Data Science",
+    "description": "Unsupervised learning pipeline (K-Means, DBSCAN) to cluster music based on audio features.",
+    "problem": "Generic recommendation engines often ignore the nuanced emotional and architectural features (energy, loudness) of niche tracks.",
+    "approach": "Applied PCA for dimensionality reduction followed by balanced K-Means and DBSCAN to identify noise-aware emotional clusters. Used Spotify API for feature extraction. Built Scikit-learn pipeline for reproducible clustering.",
+    "techStack": ["Clustering", "PCA", "Spotify API", "Scikit-learn", "Unsupervised Learning"],
+    "impact": "Constructed emotional music profiles for personalized music-based interventions.",
+    "links": {
+      "github": "https://github.com/Aruni20/Spotify_Song_Clustering",
+      "live": ""
+    }
+  },
+  {
+    "id": "mutual-fund-classification",
+    "title": "Mutual Fund Rating Classifier",
+    "category": "Quant Finance",
+    "description": "Classification pipeline for 30,000+ mutual funds using SMOTEENN for class imbalance.",
+    "problem": "Predicting performance ratings for highly imbalanced, multi-currency mutual fund datasets requires sophisticated resampling and high-cardinality feature handling.",
+    "approach": "Implemented SMOTEENN to handle class skewness and PCA to manage high-cardinality financial metrics and ESG scores. Trained LightGBM for rating prediction with careful validation.",
+    "techStack": ["LightGBM", "SMOTEENN", "Feature Engineering", "PCA", "Scikit-learn"],
+    "impact": "Achieved ~95% accuracy in rating prediction across multi-currency fund datasets.",
+    "links": {
+      "github": "https://github.com/Aruni20/Mutual_Fund_Classification",
+      "live": ""
+    }
+  },
+  {
+    "id": "framefluence",
+    "title": "Framefluence: OTT Media DBMS",
+    "category": "Engineering",
+    "description": "High-performance DBMS designed for streaming platforms and media tracking.",
+    "problem": "Streaming platforms require high-concurrency database designs to manage cross-border licensing and multi-tenant billing.",
+    "approach": "Engineered a physical design with rigorous normalization to mirror industry giants (Netflix) for media analytics. Designed conceptual and logical schemas for content, licensing, and billing domains.",
+    "techStack": ["SQL", "Conceptual Modeling", "Database Design", "Normalization"],
+    "impact": "Optimized cross-border licensing and billing data flows for OTT services.",
+    "links": {
+      "github": "https://github.com/Aruni20/Framefluence--ott-dbms",
+      "live": ""
+    }
+  },
+  {
+    "id": "sentiment-forecasting",
+    "title": "User-Centric Sentiment Forecasting (GCN)",
+    "category": "Data Science",
+    "description": "NLP system using Graph Convolutional Networks (GCN) for emotional trajectory modeling.",
+    "problem": "Transformer models often ignore syntactic dependencies, making it hard to forecast emotional shifts in irregular user feedback across time.",
+    "approach": "Combined syntactic dependency graphs with time-aware user representations using GCNs. Built on PyTorch with Transformers for baseline comparison. Achieved improved forecasting of multi-aspect sentiment trajectories.",
+    "techStack": ["NLP", "GCN", "Transformers", "PyTorch", "Sentiment Analysis"],
+    "impact": "Outperformed base Transformer models in forecasting multi-aspect sentiment trajectories.",
+    "links": {
+      "github": "https://github.com/Aruni20/Sentiment_Forecasting_User_Centric",
+      "live": ""
+    }
+  },
+  {
+    "id": "agentic-backtest",
+    "title": "Deterministic Multi-Agent Backtesting Engine",
+    "category": "Quant Finance",
+    "description": "Deterministic backtesting engine built for QuantX India with cryptographic audit trails.",
+    "problem": "Quantitative backtests often lack deterministic auditability, making it hard to verify strategy logic post-refactoring and comply with institutional requirements.",
+    "approach": "Architected a deterministic multi-agent framework that translates strategy intent into executable configurations. Implemented rule-based parsing, validation, and cryptographic execution hashes for full auditability. Built a fully deterministic execution engine for trade simulation.",
+    "techStack": ["Quant Finance", "Deterministic ML", "Auditing", "Python", "Multi-Agent Systems"],
+    "impact": "Ensured strategy logic remains immutable and auditable for institutional test runs.",
+    "links": {
+      "github": "https://github.com/Aruni20/Agentic-Backtesting-System",
+      "live": ""
+    }
+  }
+]

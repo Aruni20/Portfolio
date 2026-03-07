@@ -1,0 +1,40 @@
+[
+  {
+    "id": "smc-global",
+    "role": "Quantitative Researcher",
+    "company": "SMC Global",
+    "period": "Jan 2025 – Present",
+    "location": "India",
+    "description": "Contributing to live quantitative development projects with real market data and trading constraints. Working on production systems, execution assumptions, and market workflows using Python.",
+    "bullets": [
+      "Ship production-ready quant features on live market data under trading constraints.",
+      "Handle execution assumptions, order flows, and risk constraints.",
+      "Support factor research and performance diagnostics for live strategies."
+    ]
+  },
+  {
+    "id": "quantx",
+    "role": "Quantitative Systems Engineer (Core AI)",
+    "company": "QuantX Technology",
+    "period": "Dec 2025 – Feb 2026",
+    "location": "Gurugram",
+    "description": "Core AI engineer on deterministic multi-agent backtesting and an LLM-orchestrated quant research layer.",
+    "bullets": [
+      "Built a deterministic multi-agent framework turning English strategy intent into executable backtests with rule-based validation and cryptographic hashes.",
+      "Created an LLM-orchestrated quant research layer with human-in-the-loop controls, safety checks, and a research visualization interface."
+    ]
+  },
+  {
+    "id": "selc",
+    "role": "Machine Learning Researcher",
+    "company": "Smart Energy Learning Centre",
+    "period": "Mar 2025 – Feb 2026",
+    "location": "Gandhinagar, Gujarat",
+    "description": "Applied ML and optimization for solar rooftop investment analysis and decision support.",
+    "bullets": [
+      "Built cash-flow and payback models in Python (NumPy, Pandas) for solar rooftop investments and encoded subsidy/tariff policies as numerical constraints.",
+      "Ran sensitivity and risk analysis across electricity prices and system sizes, proposing a solar panel loss estimation method for rooftop decision-support.",
+      "Built a RAG-based QA system over tabular policy data using Camelot."
+    ]
+  }
+]
