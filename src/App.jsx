@@ -256,7 +256,7 @@ function App() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <div className="image-frame">
-                <img src="/portfolio-picture.jpg" alt="Aruni Saxena" className="profile-img" />
+                <img src={`${import.meta.env.BASE_URL}portfolio-picture.jpg`} alt="Aruni Saxena" className="profile-img" />
                 <div className="image-glow"></div>
               </div>
             </motion.div>
