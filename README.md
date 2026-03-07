@@ -2,7 +2,7 @@
 
 Personal portfolio and project showcase. Built with **React 19**, **Vite 7**, **Framer Motion**, and **Lucide icons**.
 
-🔗 **Live (GitHub Pages):** [aruni20.github.io/portfolio](https://aruni20.github.io/portfolio)  
+🔗 **Live (GitHub Pages):** [aruni20.github.io/Portfolio](https://aruni20.github.io/Portfolio)  
 *(Enable Pages in repo Settings → Pages → Source: GitHub Actions, then push to trigger deploy.)*
 
 ---
@@ -22,13 +22,10 @@ npm run build
 
 ### Deploy to GitHub Pages
 
-1. **Create the repo** on GitHub: [github.com/new](https://github.com/new) → name it **`portfolio`** (under account [Aruni20](https://github.com/Aruni20)), leave it empty (no README).
-2. Push and deploy:
-   ```bash
-   git push -u origin master
-   ```
-3. In the repo: **Settings → Pages** → under "Build and deployment", set **Source** to **GitHub Actions**.
-4. After the workflow runs, your site is live at **https://aruni20.github.io/portfolio**
+1. **Repo:** [Aruni20/Portfolio](https://github.com/Aruni20/Portfolio)
+2. Push and deploy: `git push -u origin master`
+3. In the repo: **Settings → Pages** → set **Source** to **GitHub Actions**.
+4. Site will be live at **https://aruni20.github.io/Portfolio**
 
 ---
 
