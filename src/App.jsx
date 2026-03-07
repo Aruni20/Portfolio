@@ -22,6 +22,7 @@ import {
 import projectsData from './data/projects.json';
 import experienceData from './data/experience.json';
 import educationData from './data/education.json';
+import portfolioImg from './assets/portfolio-picture.jpg';
 
 const Marquee = ({ text, direction = "left" }) => {
   return (
@@ -256,7 +257,7 @@ function App() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <div className="image-frame">
-                <img src={`${import.meta.env.BASE_URL}portfolio-picture.jpg`} alt="Aruni Saxena" className="profile-img" />
+                <img src={portfolioImg} alt="Aruni Saxena" className="profile-img" />
                 <div className="image-glow"></div>
               </div>
             </motion.div>
