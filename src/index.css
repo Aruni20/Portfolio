@@ -1189,14 +1189,123 @@ footer {
   margin: 0;
 }
 
+/* Portrait / narrow: stack hero and fix alignment */
+@media (max-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  .hero-text-block {
+    order: 1;
+    padding: 1rem 0.5rem;
+  }
+
+  .hero-intro-para {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-image-block {
+    order: 2;
+    justify-content: center;
+  }
+
+  .image-frame {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 280px;
+  }
+
+  .manifesto-pillars-list {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .compact-pillar {
+    padding: 1.5rem 0 !important;
+    text-align: center;
+  }
+
+  .compact-pillar:not(:last-child)::after {
+    display: none;
+  }
+
+  .compact-pillar.p-1,
+  .compact-pillar.p-3 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .collab-transition {
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .collab-transition::before {
+    display: none;
+  }
+
+  .collab-integrated {
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+  }
+}
+
+/* Nav: prevent overflow in portrait */
+@media (max-width: 900px) {
+  nav {
+    flex-wrap: wrap;
+    padding: 1rem 5%;
+    gap: 0.75rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .nav-links a {
+    font-size: 0.65rem;
+    padding: 0.35rem 0.6rem;
+  }
+
+  .nav-status {
+    width: 100%;
+    justify-content: center;
+    font-size: 0.55rem;
+  }
+
+  .logo-text {
+    font-size: 0.7rem;
+  }
+}
+
 @media (max-width: 768px) {
   section {
     padding: 3rem 5%;
   }
 
+  .hero-branded {
+    padding-top: 6rem;
+    padding-bottom: 0;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
   .manifesto-pillars {
     grid-template-columns: 1fr;
     gap: 2.5rem;
+  }
+
+  .manifesto-pillars-list {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .achievement-list-item {
@@ -1211,11 +1320,86 @@ footer {
 
   .education-item {
     grid-template-columns: 1fr;
-    gap: 0.25rem;
+    gap: 0.5rem;
+  }
+
+  .education-list {
+    padding-left: 1.5rem;
   }
 
   .project-github-link span,
   .project-live-link span {
     display: none;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .reach-dropbox {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1.5rem;
+  }
+
+  footer {
+    padding: 2rem 1rem;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+
+/* Very narrow (phone portrait) */
+@media (max-width: 480px) {
+  section {
+    padding: 2rem 4%;
+  }
+
+  .hero-branded {
+    padding-top: 5.5rem;
+  }
+
+  .hero-title {
+    font-size: clamp(1.75rem, 7vw, 2.5rem);
+  }
+
+  .hero-intro-para {
+    font-size: 0.95rem;
+  }
+
+  .identity-stmt {
+    font-size: 1rem;
+  }
+
+  .image-frame {
+    max-width: 240px;
+  }
+
+  nav {
+    padding: 0.75rem 4%;
+  }
+
+  .nav-links a {
+    font-size: 0.6rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .compact-pillar strong {
+    font-size: 0.95rem;
+  }
+
+  .compact-pillar span {
+    font-size: 0.9rem;
   }
 }
