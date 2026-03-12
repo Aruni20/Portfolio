@@ -231,7 +231,7 @@ function App() {
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
               <h1 className="hero-title">
-                Markets, Models, & <br />
+                Markets, Models, & <br className="hero-title-break" />
                 <span className="italic-accent">Machine Intelligence</span>.
               </h1>
 

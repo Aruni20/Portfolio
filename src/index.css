@@ -237,6 +237,7 @@ section {
   min-height: auto;
   padding-top: 7rem;
   padding-bottom: 0;
+  overflow: visible;
   /* Removing gap */
 }
 
@@ -1192,7 +1193,12 @@ footer {
 /* Portrait / narrow: stack hero and fix alignment */
 @media (max-width: 900px) {
   .hero-branded {
-    padding-top: 7rem;
+    padding-top: 9rem;
+  }
+
+  /* Single-line wrap so full heading stays visible (no clipped first line) */
+  .hero-title-break {
+    display: none;
   }
 
   .hero-grid {
@@ -1300,7 +1306,7 @@ footer {
   }
 
   .hero-branded {
-    padding-top: 7rem;
+    padding-top: 9.5rem;
     padding-bottom: 0;
   }
 
@@ -1308,6 +1314,10 @@ footer {
     font-size: clamp(1.85rem, 7vw, 2.75rem);
     line-height: 1.2;
     margin-bottom: 1.25rem;
+  }
+
+  .hero-title-break {
+    display: none;
   }
 
   .manifesto-pillars {
@@ -1379,12 +1389,16 @@ footer {
   }
 
   .hero-branded {
-    padding-top: 7.25rem;
+    padding-top: max(10rem, calc(10rem + env(safe-area-inset-top, 0px)));
   }
 
   .hero-title {
     font-size: clamp(1.6rem, 6.5vw, 2.25rem);
     line-height: 1.25;
+  }
+
+  .hero-title-break {
+    display: none;
   }
 
   .hero-intro-para {
