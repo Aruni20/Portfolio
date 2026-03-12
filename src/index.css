@@ -1191,6 +1191,10 @@ footer {
 
 /* Portrait / narrow: stack hero and fix alignment */
 @media (max-width: 900px) {
+  .hero-branded {
+    padding-top: 7rem;
+  }
+
   .hero-grid {
     grid-template-columns: 1fr;
     gap: 2.5rem;
@@ -1200,6 +1204,12 @@ footer {
   .hero-text-block {
     order: 1;
     padding: 1rem 0.5rem;
+    overflow: visible;
+  }
+
+  .hero-title {
+    font-size: clamp(1.9rem, 6vw, 2.85rem);
+    line-height: 1.2;
   }
 
   .hero-intro-para {
@@ -1290,12 +1300,14 @@ footer {
   }
 
   .hero-branded {
-    padding-top: 6rem;
+    padding-top: 7rem;
     padding-bottom: 0;
   }
 
   .hero-title {
-    font-size: clamp(2rem, 8vw, 3rem);
+    font-size: clamp(1.85rem, 7vw, 2.75rem);
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
   }
 
   .manifesto-pillars {
@@ -1367,11 +1379,12 @@ footer {
   }
 
   .hero-branded {
-    padding-top: 5.5rem;
+    padding-top: 7.25rem;
   }
 
   .hero-title {
-    font-size: clamp(1.75rem, 7vw, 2.5rem);
+    font-size: clamp(1.6rem, 6.5vw, 2.25rem);
+    line-height: 1.25;
   }
 
   .hero-intro-para {
