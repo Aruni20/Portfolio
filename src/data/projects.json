@@ -14,6 +14,20 @@
     }
   },
   {
+    "id": "deepfake-freqnet",
+    "title": "FreqNet: Hybrid Deepfake Detection Classifier",
+    "category": "Data Science",
+    "description": "Hybrid deepfake detector fusing ResNet-50 semantic features with FFT, Canny, and LBP handcrafted descriptors for synthetic-media forensics.",
+    "problem": "CNN-only detectors focus on what an image depicts but miss statistical artifacts (frequency inconsistencies, unnatural edges, texture noise) and often fail to generalize across unseen manipulations or compressed media.",
+    "approach": "Implemented FreqNet in PyTorch: frozen ResNet-50 backbone plus FFT, Canny edge, and LBP pipelines for interpretable hybrid features. Trained on balanced real/fake data with Adam, ReduceLROnPlateau, and early stopping. Deployed an interactive Streamlit app for inference.",
+    "techStack": ["PyTorch", "Computer Vision", "ResNet-50", "FFT", "LBP", "Streamlit"],
+    "impact": "Reported 91.6% accuracy and 0.948 AUC—about 7.4% accuracy gain over a baseline CNN on the evaluated dataset.",
+    "links": {
+      "github": "https://github.com/Aruni20/Deepfake_Detection_Classifier",
+      "live": "https://deepfakedetectionaruni.streamlit.app/"
+    }
+  },
+  {
     "id": "lego-optimization",
     "title": "Retail Assortment Optimizer (Gurobi × Databricks)",
     "category": "Engineering",
